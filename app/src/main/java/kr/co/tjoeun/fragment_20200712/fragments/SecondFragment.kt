@@ -26,7 +26,7 @@ class SecondFragment : Fragment() {
 
         toastBtn.setOnClickListener {
 
-            Toast.makeText(activity, this, "두번쨰 프래그먼트 입니다.", Toast.LENGTH_SHORT.show())
+            Toast.makeText(activity, "두번쨰 프래그먼트 입니다.", Toast.LENGTH_SHORT).show()
             //지금 this가 안먹히는 이유?
             infoTxt2.text = "변경된 문구이다"
         }
