@@ -1,4 +1,9 @@
 package kr.co.tjoeun.fragment_20200712.fragments
 
-class FirstFragment {
+import androidx.fragment.app.Fragment
+
+class FirstFragment : Fragment() {
+
+
+
 }
